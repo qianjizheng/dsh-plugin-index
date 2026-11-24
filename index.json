@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "title": { "en": "yeluoshuangyu DSH plugins", "zh": "夜落霜雨的 DSH 插件" },
+  "description": {
+    "en": "DSH Desktop plugins by yeluoshuangyu.",
+    "zh": "yeluoshuangyu 的 DSH Desktop 插件。"
+  },
+  "metadata": {
+    "categories": {
+      "interface": { "title": { "en": "Interface", "zh": "界面" } }
+    },
+    "labels": {
+      "desktop": { "title": { "en": "Desktop", "zh": "桌面" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-desktop-reasoning-slider",
+      "title": { "en": "Reasoning effort slider", "zh": "推理等级滑杆" },
+      "description": {
+        "en": "Show the reasoning efforts your current model publishes, switch between them from the session, and attach a one-shot subagent preference prompt.",
+        "zh": "显示当前模型公开的推理等级并在会话中切换，另有一个一次性的子代理偏好提示。"
+      },
+      "author": "yeluoshuangyu",
+      "homepage": "https://github.com/yeluoshuangyu/dsh-desktop-reasoning-slider",
+      "repository": { "url": "https://github.com/yeluoshuangyu/dsh-desktop-reasoning-slider" },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iNiIgeT0iMTIiIHdpZHRoPSI1MiIgaGVpZ2h0PSI0MCIgcng9IjEyIiBmaWxsPSIjMjYzYjVhIi8+PHBhdGggZD0iTTE3IDMzaDMwIiBzdHJva2U9IiM4MmFhZmYiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMzkiIGN5PSIzMyIgcj0iMTAiIGZpbGw9IiNlOWVmZmYiIHN0cm9rZT0iIzY2N2NmMCIgc3Ryb2tlLXdpZHRoPSIzIi8+PHBhdGggZD0iTTE3IDIzdjIwbTMwLTIwdjIwIiBzdHJva2U9IiM5YWFiYzciIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+DQo=",
+      "metadata": {
+        "category": "interface",
+        "keywords": ["reasoning", "reasoning effort", "slider", "desktop", "推理", "等级", "滑杆", "界面"],
+        "labels": ["desktop"]
+      },
+      "versions": [
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1793860209,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yeluoshuangyu/dsh-desktop-reasoning-slider",
+            "commit": "b79ea61e9282d642057f9d9318d5a5ea4e7118c1"
+          }
+        }
+      ]
+    }
+  ]
+}
